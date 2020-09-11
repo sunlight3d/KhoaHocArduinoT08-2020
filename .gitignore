@@ -6,7 +6,7 @@
 *.lo
 *.o
 *.obj
-
+.pptx
 # Precompiled Headers
 *.gch
 *.pch
