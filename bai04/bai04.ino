@@ -18,7 +18,7 @@ int measureDistance() {
     distance = (time * 0.034) / 2;  //The speed of sound in cm/us is 0.034cm/us
 }
 void loop ( ) {
-    
+    itn distance = measureDistance();
     if (distance <= 10) {
       Serial.println (" Door Open ");
       Serial.print (" Distance= ");
